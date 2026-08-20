@@ -1,4 +1,5 @@
 import pandas as pd
+from sklearn.model_selection import train_test_split
 
 RAW_PATH = "tourism_project/data/tourism.csv"
 df = pd.read_csv(RAW_PATH)
